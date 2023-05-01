@@ -1,0 +1,7 @@
+#top-container{
+
+    /*max-height: 250rem;*/
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
