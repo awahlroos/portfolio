@@ -1,11 +1,4 @@
-/*::selection {
-    Ändra till rätt svart/vit
-    background-color: black;
-    color: white;
-}*/
-
 #top-container{
-
     /*max-height: 250rem;*/
     display: flex;
     padding: 0;
@@ -19,8 +12,6 @@
 
 #landing-text-container{
     height: 100%;
-    max-width: 50rem;
-    /*TODO: lägg max-width globalt*/
     margin-top: auto;
     margin-right: 2rem;
 }
