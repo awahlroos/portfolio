@@ -1,32 +1,33 @@
-:root{
-  --off-white: #FFFBF5;
-  --black: #1D1D1D;
+:root {
+  --off-white: #fffbf5;
+  --black: #1d1d1d;
 }
 
-::selection{
-  background-color: #FFBE5B;
+::selection {
+  background-color: #ffbe5b;
   color: var(--black);
 }
 
-*{
+* {
   background-color: var(--off-white);
   color: var(--black);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-h1 {
+h1,
+h2 {
   font-weight: 800;
   line-height: 0;
 }
 
-.App{
+.App {
   height: 100vh;
   /*background-color: red;*/
   display: flex;
   justify-content: center;
 }
 
-.home-top-container{
+.home-top-container {
   /*background-color: blue;*/
   max-width: 65rem;
   margin-left: 2vw;
@@ -34,8 +35,8 @@ h1 {
   margin-top: 5vh;
 }
 
-.primary-button{
-	border: solid var(--black) 2px;
+.primary-button {
+  border: solid var(--black) 2px;
   background: none;
   cursor: pointer;
   align-items: center;
@@ -43,14 +44,11 @@ h1 {
   background-color: var(--black);
   border-radius: 3px;
   color: var(--off-white);
-  text-align: center;    
+  text-align: center;
 }
 
-.primary-button:hover{
-
+.primary-button:hover {
 }
-
-
 
 /*#root {
   max-width: 1280px;

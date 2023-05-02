@@ -2,7 +2,7 @@
   {
     "title": "Daily UI",
     "shortDesc": "Daily UI är en designutmaning där 100 olika designproblem ska lösas. Det kan vara allt från en landningssida för en produkt till en 404-sida. Här är de utmaningar jag gjort hittills!",
-    "tags": ["UI","Figma"],
+    "tags": ["UI", "Figma"],
     "images": ["/src/images/daily_ui.png"]
   }
 ]

@@ -1,50 +1,51 @@
-#project-container{
-    display: flex;
-    width: 100%;
-    padding: 50px;
-    border-radius: 10px;
-    border: 1px solid var(--black);
+#project-container {
+  display: flex;
+  width: 100%;
+  padding: 50px;
+  border-radius: 10px;
+  border: 1px solid var(--black);
 }
 
 #project-container:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 #project-container:hover #circle-button {
-    background: url(../images/white-arrow.png) no-repeat center center, var(--black);
-    background-size: 24px 24px;
+  background: url(../images/white-arrow.png) no-repeat center center,
+    var(--black);
+  background-size: 24px 24px;
 }
 
 .text-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.title-text, .description-text{
-    margin-top: 0;    
+.title-text,
+.description-text {
+  margin-top: 0;
 }
-
 
 .tag {
-    padding: 0px 8px 8px 8px;
-    margin: 8px;
-    border-bottom: 2px solid black;
+  padding: 0px 8px 8px 8px;
+  margin: 8px;
+  border-bottom: 2px solid black;
 }
 
-.button-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background:url(../images/arrow.png) no-repeat center center;
-    background-size: 24px 24px;
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url(../images/arrow.png) no-repeat center center;
+  background-size: 24px 24px;
 }
 
-#circle-button{
-    border: solid var(--black) 1px;
-    cursor: pointer; 
-    border-radius: 100%;
-    background-color: transparent;
-    height: 50px;
-    width: 50px;
+#circle-button {
+  border: solid var(--black) 1px;
+  cursor: pointer;
+  border-radius: 100%;
+  background-color: transparent;
+  height: 50px;
+  width: 50px;
 }
