@@ -18,6 +18,7 @@
 
 #landing-text-name {
   font-size: clamp(3rem, 5vw, 5rem);
+  line-height: 0;
 }
 
 #landing-image-container {
