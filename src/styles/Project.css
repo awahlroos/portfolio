@@ -70,7 +70,7 @@
   }
 
   .button-container {
-    visibility: hidden;
+    display: none;
   }
 
   .image-container {
