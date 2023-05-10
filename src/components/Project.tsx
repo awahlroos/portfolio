@@ -30,7 +30,7 @@ export default function Project({ title, shortDesc, tags, images }: Props) {
           </div>
         </div>
         <div className="image-container">
-          <img src={images[0]} />
+          <img id="project-image" src={images[0]} />
         </div>
         <div className="button-container">
           <button id="circle-button"></button>

@@ -2,7 +2,19 @@
   {
     "title": "Daily UI",
     "shortDesc": "Daily UI är en designutmaning där 100 olika designproblem ska lösas. Det kan vara allt från en landningssida för en produkt till en 404-sida. Här är de utmaningar jag gjort hittills!",
-    "tags": ["UI", "Figma"],
+    "tags": ["Design"],
     "images": ["/src/images/daily_ui.png"]
+  },
+  {
+    "title": "Samåkningsappen Chare",
+    "shortDesc": "I kursen \"Utveckling av mobila applikationer\" skapade jag och min projektgrupp samåkningsappen Chare i Android Studio. Ett första smakprov på att utveckla för mobila enheter!",
+    "tags": ["Programmering", "Design"],
+    "images": ["/src/images/chare.png"]
+  },
+  {
+    "title": "Sociala mediet GreetUp",
+    "shortDesc": "I samarbete med studenter på Edith Cowan University i Perth, Australien, gjorde vår projektgrupp en webapplikation med syfte att bryta social isolation bland äldre till följd av coronapandemin.",
+    "tags": ["Programmering", "Design"],
+    "images": ["/src/images/greetup.png"]
   }
 ]

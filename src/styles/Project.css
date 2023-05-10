@@ -1,8 +1,12 @@
+#top-container {
+  margin-bottom: 1.5rem;
+}
+
 #project-container {
   display: flex;
-  width: 100%;
   padding: 50px;
   border-radius: 10px;
+  box-sizing: border-box;
   border: 1px solid var(--black);
 }
 
@@ -14,6 +18,11 @@
   background: url(../images/white-arrow.png) no-repeat center center,
     var(--black);
   background-size: 24px 24px;
+}
+
+#project-container:hover .image-container {
+  /*transform: rotate(-2deg);
+  transition: 300ms ease-in;*/
 }
 
 .text-container {
@@ -48,4 +57,29 @@
   background-color: transparent;
   height: 50px;
   width: 50px;
+}
+
+#project-image {
+  width: 300px;
+}
+
+@media (max-width: 768px) {
+  #project-container {
+    flex-direction: column-reverse;
+    padding: 8% 5%;
+  }
+
+  .button-container {
+    visibility: hidden;
+  }
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+
+  #project-image {
+    width: clamp(1px, 90%, 350px);
+  }
 }

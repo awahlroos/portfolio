@@ -17,7 +17,6 @@
 h1,
 h2 {
   font-weight: 800;
-  line-height: 0;
 }
 
 .App {
@@ -28,7 +27,6 @@ h2 {
 }
 
 .home-top-container {
-  /*background-color: blue;*/
   max-width: 65rem;
   margin-left: 2vw;
   margin-right: 2vw;
