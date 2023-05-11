@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/Project.css";
-import { useState, useEffect } from "react";
 
 interface Props {
   title: string;
@@ -10,8 +9,6 @@ interface Props {
 }
 
 export default function Project({ title, shortDesc, tags, images }: Props) {
-  //images.map(img => import(`/* @vite-ignore */${img}`))
-
   return (
     <div id="top-container">
       <div id="project-container">
