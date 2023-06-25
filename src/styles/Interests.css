@@ -6,6 +6,10 @@
   text-align: center;
 }
 
+.interest-icon {
+  width: 50px;
+}
+
 .skill {
   line-height: 0.75;
 }

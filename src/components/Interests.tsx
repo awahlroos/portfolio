@@ -11,7 +11,7 @@ interface Props {
 export default function Interests({ title, skills, icon }: Props) {
   return (
     <div className="interest-container">
-      <img src={icon} className="skill-icon"></img>
+      <img className="interest-icon" src={icon}></img>
       <h4>{title}</h4>
       {skills.map((skill) => (
         <p className="skill">+ {skill}</p>
