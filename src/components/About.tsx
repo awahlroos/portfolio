@@ -15,7 +15,7 @@ export default function About() {
         <div id="about-me-container">
           <img src={about_me_image} id="about-me-image" alt="About me image" />
           <p id="about-me-text">
-            Jag heter Alex Wahlroos och går fjärde året på
+            Jag heter Alex Wahlroos och studerar fjärde året på
             civilingenjörsprogrammet interaktion och design vid Umeå
             Universitet. En vanlig beskrivning av detta program är att{" "}
             <b>mötet mellan människa och maskin</b> står i fokus, vilket i
