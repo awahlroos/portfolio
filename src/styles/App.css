@@ -25,6 +25,55 @@ h2 {
   font-weight: 800;
 }
 
+.primary-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  align-items: center;
+  padding: 10px 50px;
+  background-color: var(--black);
+  border-radius: 300px;
+  font-weight: 500;
+  color: var(--off-white);
+  text-align: center;
+}
+
+.filter-button-inactive {
+  border: solid var(--black) 1px;
+  background: none;
+  cursor: pointer;
+  align-items: center;
+  padding: 4px 14px;
+  border-radius: 300px;
+  font-weight: 500;
+  color: var(--black);
+  text-align: center;
+}
+
+.filter-button-inactive:hover {
+  background-color: #1d1d1d0d;
+}
+
+.filter-button-active {
+  border: solid var(--black) 1px;
+  background: none;
+  cursor: pointer;
+  align-items: center;
+  padding: 4px 14px;
+  border-radius: 300px;
+  font-weight: 500;
+  color: var(--off-white);
+  background-color: var(--black);
+  text-align: center;
+}
+
+.filter-button-active:hover {
+  background-color: #1d1d1df0;
+}
+
+.primary-button:hover {
+}
+
 .App {
   display: flex;
   flex-direction: column;
@@ -33,7 +82,7 @@ h2 {
 
 .home-top-container {
   max-width: 65rem;
-  margin: 0 2vw 0 2vw;
+  margin: 0 clamp(16px, 2vw, 200px);
 }
 
 .spacer {

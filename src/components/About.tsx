@@ -31,6 +31,7 @@ export default function About() {
         <div className="interests-container">
           {interestsData.map((interests) => (
             <Interests
+              key={interests.title}
               title={interests.title}
               skills={interests.skills}
               icon={interests.icon}

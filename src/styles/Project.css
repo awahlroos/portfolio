@@ -60,7 +60,7 @@
 }
 
 #project-image {
-  width: 300px;
+  width: 275px;
 }
 
 @media (max-width: 768px) {
@@ -80,6 +80,6 @@
   }
 
   #project-image {
-    width: clamp(1px, 90%, 350px);
+    width: clamp(1px, 80%, 300px);
   }
 }

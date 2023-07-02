@@ -8,13 +8,19 @@
   {
     "title": "Samåkningsappen Chare",
     "shortDesc": "I kursen \"Prototyputveckling för mobila applikationer\" skapade jag och min projektgrupp samåkningsappen Chare i Android Studio. Ett första smakprov på att utveckla för mobila enheter!",
-    "tags": ["Programmering", "Design"],
+    "tags": ["Apputveckling", "Design"],
     "images": ["/src/images/chare.png"]
   },
   {
     "title": "Sociala mediet GreetUp",
     "shortDesc": "I samarbete med studenter på Edith Cowan University i Perth, Australien, gjorde vår projektgrupp en webapplikation med syfte att bryta social isolation bland äldre till följd av coronapandemin.",
-    "tags": ["Programmering", "Design"],
+    "tags": ["Webbutveckling", "Design"],
+    "images": ["/src/images/greetup.png"]
+  },
+  {
+    "title": "Makrokoll Makrokoll Makrokoll Makrokoll Makrokoll Makrokoll Makrokoll Makrokoll Makrokoll Makrokoll Makrokoll Makrokoll Makrokoll Makrokoll ",
+    "shortDesc": "I samarbete med studenter på Edith Cowan University i Perth, Australien, gjorde vår projektgrupp en webapplikation med syfte att bryta social isolation bland äldre till följd av coronapandemin.",
+    "tags": ["Apputveckling", "Design"],
     "images": ["/src/images/greetup.png"]
   }
 ]

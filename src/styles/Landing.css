@@ -5,21 +5,6 @@
   margin: 0;
 }
 
-.primary-button {
-  border: solid var(--black) 2px;
-  background: none;
-  cursor: pointer;
-  align-items: center;
-  padding: 8px 50px;
-  background-color: var(--black);
-  border-radius: 3px;
-  color: var(--off-white);
-  text-align: center;
-}
-
-.primary-button:hover {
-}
-
 #landing-image {
   float: right;
   width: clamp(250px, 25vw, 300px);

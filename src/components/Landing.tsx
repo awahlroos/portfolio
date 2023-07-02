@@ -1,7 +1,6 @@
 import React from "react";
 import landing_image from "../images/landing_image.png";
 import "../styles/Landing.css";
-import "../styles/App.css";
 
 export default function Landing() {
   return (

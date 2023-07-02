@@ -1,6 +1,4 @@
-import React from "react";
 import "../styles/Interests.css";
-import interestsData from "../data/interestsData.json";
 
 interface Props {
   title: string;
@@ -14,7 +12,9 @@ export default function Interests({ title, skills, icon }: Props) {
       <img className="interest-icon" src={icon}></img>
       <h4>{title}</h4>
       {skills.map((skill) => (
-        <p className="skill">+ {skill}</p>
+        <p key={skill} className="skill">
+          + {skill}
+        </p>
       ))}
     </div>
   );

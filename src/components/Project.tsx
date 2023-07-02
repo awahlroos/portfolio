@@ -1,4 +1,3 @@
-import React from "react";
 import "../styles/Project.css";
 
 interface Props {
@@ -21,7 +20,9 @@ export default function Project({ title, shortDesc, tags, images }: Props) {
             <h4 style={{ display: "inline" }}>#</h4>
             <p style={{ display: "inline" }}>
               {tags.map((tag) => (
-                <span className="tag">{tag}</span>
+                <span key={tag} className="tag">
+                  {tag}
+                </span>
               ))}
             </p>
           </div>
