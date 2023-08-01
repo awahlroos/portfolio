@@ -1,23 +1,15 @@
-import Landing from "../components/Landing";
-import About from "../components/About";
-import Projects from "../components/Projects";
-import Footer from "../components/Footer";
 import "../styles/App.css";
+import { Routes, Route } from "react-router-dom";
+import ProjectPage from "./ProjectPage";
+import Home from "./Home";
 
 function App() {
   return (
     <div className="App">
-      <div className="home-top-container">
-        <div className="spacer"></div>
-
-        <Landing />
-        <div className="spacer"></div>
-        <About />
-        <div className="spacer"></div>
-        <Projects />
-        <div className="spacer"></div>
-      </div>
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/project/:id" element={<ProjectPage />} />
+      </Routes>
     </div>
   );
 }
