@@ -59,6 +59,11 @@
   width: 50px;
 }
 
+.image-container {
+  display: flex;
+  align-items: center;
+}
+
 #project-image {
   width: 275px;
 }
@@ -81,5 +86,11 @@
 
   #project-image {
     width: clamp(1px, 80%, 300px);
+  }
+}
+
+@media (min-width: 769px) {
+  #project-container {
+    height: 440px;
   }
 }

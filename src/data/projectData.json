@@ -18,9 +18,15 @@
     "images": ["/src/images/greetup.png"]
   },
   {
-    "title": "Makrokoll Makrokoll Makrokoll Makrokoll Makrokoll Makrokoll Makrokoll Makrokoll Makrokoll Makrokoll Makrokoll Makrokoll Makrokoll Makrokoll ",
-    "shortDesc": "I samarbete med studenter på Edith Cowan University i Perth, Australien, gjorde vår projektgrupp en webapplikation med syfte att bryta social isolation bland äldre till följd av coronapandemin.",
+    "title": "Makrokoll",
+    "shortDesc": "Under den sista uppgiften i kursen \"Utveckling av mobila applikationer\" skapade jag en receptapplikation för Android som gör det enkelt att hålla koll på vad maten vi äter faktiskt innehåller.",
     "tags": ["Apputveckling", "Design"],
-    "images": ["/src/images/greetup.png"]
+    "images": ["/src/images/makrokoll.png"]
+  },
+  {
+    "title": "Känsla av närvaro",
+    "shortDesc": "I kursen Produktutveckling i medieteknik med metoden \"Design-Build-Test\" jobbade jag och min projektgrupp med att skapa en känsla av närvaro på distans för svårt sjuka barn.",
+    "tags": ["Design"],
+    "images": ["/src/images/kansla_av_narvaro.png"]
   }
 ]

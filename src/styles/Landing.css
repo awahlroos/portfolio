@@ -13,11 +13,11 @@
 #landing-text-container {
   height: 100%;
   margin-top: auto;
-  margin-right: 2rem;
+  margin-right: 3.4rem;
 }
 
 #landing-text-name {
-  font-size: clamp(3rem, 5vw, 5rem);
+  font-size: clamp(3rem, 5vw, 4rem);
   line-height: 0;
 }
 
