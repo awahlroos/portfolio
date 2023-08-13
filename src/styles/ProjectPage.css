@@ -1,0 +1,12 @@
+.gray {
+  color: var(--gray);
+  font-weight: 300;
+}
+
+.projectpage-title {
+  line-height: 0;
+}
+
+.paragraph {
+  white-space: pre-line;
+}

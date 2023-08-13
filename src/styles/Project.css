@@ -25,6 +25,11 @@
   transition: 300ms ease-in;*/
 }
 
+.no-style {
+  text-decoration: none;
+  color: inherit;
+}
+
 .text-container {
   display: flex;
   flex-direction: column;
@@ -34,6 +39,11 @@
 .title-text,
 .description-text {
   margin-top: 0;
+}
+
+.display-inline h4,
+.display-inline p {
+  display: inline;
 }
 
 .tag {

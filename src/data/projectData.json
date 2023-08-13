@@ -1,32 +1,40 @@
 [
   {
+    "id": "daily-ui",
     "title": "Daily UI",
     "shortDesc": "Daily UI är en designutmaning där 100 olika designproblem ska lösas. Det kan vara allt från en landningssida för en produkt till en 404-sida. Här är de utmaningar jag gjort hittills!",
     "tags": ["Design"],
-    "images": ["/src/images/daily_ui.png"]
+    "background": "Daily UI är en designutmaning som utmanar användare att designa 100 olika grafiska designer såsom gränssnitt och logotyper med unika inslag. Detta är ett kul sätt att utmana och utveckla sina färdigheter i främst UI-området.",
+    "coverImage": "/src/images/daily_ui/daily_ui_cover.png",
+    "images": []
   },
   {
+    "id": "chare",
     "title": "Samåkningsappen Chare",
     "shortDesc": "I kursen \"Prototyputveckling för mobila applikationer\" skapade jag och min projektgrupp samåkningsappen Chare i Android Studio. Ett första smakprov på att utveckla för mobila enheter!",
     "tags": ["Apputveckling", "Design"],
-    "images": ["/src/images/chare.png"]
+    "background": "",
+    "idea": "",
+    "process": "",
+    "coverImage": "/src/images/chare/chare_cover.png",
+    "images": []
   },
   {
+    "id": "greetup",
     "title": "Sociala mediet GreetUp",
     "shortDesc": "I samarbete med studenter på Edith Cowan University i Perth, Australien, gjorde vår projektgrupp en webapplikation med syfte att bryta social isolation bland äldre till följd av coronapandemin.",
     "tags": ["Webbutveckling", "Design"],
-    "images": ["/src/images/greetup.png"]
+    "background": "Detta projekt startade under kursen \"Teknik för sociala medier\" och var ett samarbete med marknadsföringsstudenter på Edith Cowan University (ECU) i Perth, Australien. Temat för kursen (och applikationen) var att bryta social isolation bland äldre i Australien till följd av coronapandemin. Målgruppen vi valde för vårt projekt var seniorer (65+ år) i Australien som har någon form av fysisk funktionsvariation.\n\nVår projektgrupp om fyra studenter jobbade tillsammans med en annan studentgrupp från ECU för att ta fram underlag för applikationen, som sedan ECU skulle marknadsföra. Endast vår egen studentgrupp arbetade med själva designen och implementationen av applikationen, vilket möjliggjorde att vi kunde kombinera implementationsfasen med projektmomentet i kursen Applikationsutveckling för internet som vi läste parallellt. Detta möjliggjorde att vi kunde lägga mer tid på projektet och uppnå ett mer genomarbetat resultat. Tidsramen för projektet var knappt 7.5hp (ca. 4 veckor).",
+    "idea": "Denna applikation är baserad på att användare kan skapa och delta i privata eller offentliga evenemang. En användare kan lägga upp ett evenemang som denne tänker anordna och andra användare kan fylla i att de kommer delta, eller ansöka om att delta om evenemanget är privat. Evenemangen som användare får upp på sin “Explore”-sida är matchade med de funktionsvariationer användaren angett, vilket innebär att endast relevanta inlägg kan visas. Är ett evenemang inte lämpligt för en användare givet dennes funktionsvariation visas en varning om detta, för att ge användaren förutsättningar att delta på lika villkor. Övriga funktionalitet som skulle finnas var att användare kan samla på och visa upp badges/märken (dvs. ha inslag av gamification), som kan erhållas vid utförande av olika aktiviteter i applikationen. Ett forum skulle även finnas för textinlägg där tanken var att enklare kunna kommunicera med sitt grannskap.",
+    "process": "Till att börja med tog vår studentgrupp del av förarbetet studenterna på ECU gjort. Arbetet handlade främst om att sätta sig in i målgruppen och vilka problem och behov som finns. Därefter skapades en prototyp i Figma av vår studentgrupp som presenterades för ECU-gruppen som gav feedback på prototypen. Vissa ändringar gjordes i prototypen och efter vidare återkoppling av ECU-gruppen slogs den färdiga prototypen fast.\n\nEfter prototypen färdigställts skapades en databas i MySQL och ett webb-API skrivet i ASP.NET som använder Entity Framework. Utvecklingen fortsatte sedan i React.",
+    "coverImage": "/src/images/greetup/greetup_cover.png",
+    "images": []
   },
   {
+    "id": "makrokoll",
     "title": "Makrokoll",
     "shortDesc": "Under den sista uppgiften i kursen \"Utveckling av mobila applikationer\" skapade jag en receptapplikation för Android som gör det enkelt att hålla koll på vad maten vi äter faktiskt innehåller.",
     "tags": ["Apputveckling", "Design"],
-    "images": ["/src/images/makrokoll.png"]
-  },
-  {
-    "title": "Känsla av närvaro",
-    "shortDesc": "I kursen Produktutveckling i medieteknik med metoden \"Design-Build-Test\" jobbade jag och min projektgrupp med att skapa en känsla av närvaro på distans för svårt sjuka barn.",
-    "tags": ["Design"],
-    "images": ["/src/images/kansla_av_narvaro.png"]
+    "images": ["/src/images/greetup.png"]
   }
 ]

@@ -34,11 +34,9 @@ export default function Projects() {
       <h2>Tidigare projekt</h2>
       <div className="filter-button-container">
         <button
-          className={
-            viewAll
-              ? "filter-button filter-button-active"
-              : "filter-button filter-button-inactive"
-          }
+          className={`filter-button ${
+            viewAll ? "filter-button-active" : "filter-button-inactive"
+          }`}
           onClick={handleFilter("")}
         >
           Alla
@@ -46,18 +44,18 @@ export default function Projects() {
         {filterArray.map((filter) => (
           <button
             key={filter}
-            className={
+            className={`filter-button ${
               disabledFilters.includes(filter)
-                ? "filter-button filter-button-active"
-                : "filter-button filter-button-inactive"
-            }
+                ? "filter-button-active"
+                : "filter-button-inactive"
+            }`}
             onClick={handleFilter(filter)}
           >
             {filter}
           </button>
         ))}
       </div>
-      {projectData.map((project, index) => {
+      {projectData.map((project) => {
         const shouldRenderProject = project.tags.some((tag) =>
           disabledFilters.includes(tag)
         );
@@ -65,11 +63,12 @@ export default function Projects() {
         if (shouldRenderProject || viewAll) {
           return (
             <Project
-              key={index}
+              key={project.id}
+              id={project.id}
               title={project.title}
               shortDesc={project.shortDesc}
               tags={project.tags}
-              images={project.images}
+              coverImage={project.coverImage}
             />
           );
         }
