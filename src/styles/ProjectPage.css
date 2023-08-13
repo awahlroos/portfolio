@@ -1,10 +1,5 @@
-.gray {
-  color: var(--gray);
-  font-weight: 300;
-}
-
 .projectpage-title {
-  line-height: 0;
+  line-height: 1.2;
 }
 
 .paragraph {

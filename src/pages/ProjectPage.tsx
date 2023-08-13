@@ -14,7 +14,7 @@ export default function ProjectPage() {
     <div className="home-top-container">
       <div className="spacer" />
       <h1 className="projectpage-title">{project.title}</h1>
-      <p className="gray">{project.shortDesc}</p>
+      <p>{project.shortDesc}</p>
       {project.background && [
         <h3>Bakgrund</h3>,
         <p className="paragraph">{project.background}</p>,
