@@ -35,6 +35,21 @@
     "title": "Makrokoll",
     "shortDesc": "Under den sista uppgiften i kursen \"Utveckling av mobila applikationer\" skapade jag en receptapplikation för Android som gör det enkelt att hålla koll på vad maten vi äter faktiskt innehåller.",
     "tags": ["Apputveckling", "Design"],
-    "images": ["/src/images/greetup.png"]
+    "background": "",
+    "idea": "",
+    "process": "",
+    "coverImage": "/src/images/makrokoll/makrokoll_cover.png",
+    "images": []
+  },
+  {
+    "id": "kansla-av-narvaro",
+    "title": "Känsla av närvaro",
+    "shortDesc": "I kursen Produktutveckling i medieteknik med metoden \"Design-Build-Test\" jobbade jag och min projektgrupp med att skapa en känsla av närvaro på distans för svårt sjuka barn.",
+    "tags": ["Design"],
+    "background": "",
+    "idea": "",
+    "process": "",
+    "coverImage": "/src/images/kansla_av_narvaro/kansla_av_narvaro_cover.png",
+    "images": []
   }
 ]

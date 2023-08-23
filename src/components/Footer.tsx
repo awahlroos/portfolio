@@ -1,13 +1,12 @@
-import React from "react";
 import "../styles/Footer.css";
-import footerImage from "../assets/smiley-face.svg";
+import footerImage from "../images/footer-image.png";
 import mailIcon from "../assets/mail-icon.svg";
 import linkedinIcon from "../assets/linkedin-icon.svg";
 import githubIcon from "../assets/github-icon.svg";
 
 export default function Footer() {
   return (
-    <div className="top-footer-container outer-footer-container">
+    <div className="top-footer-container outer-footer-container component-padding-top">
       <div className="outer-footer-container">
         <div className="inner-footer-container">
           <div className="flex-container">

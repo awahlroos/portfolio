@@ -1,7 +1,36 @@
+p,
+h1,
+h3,
+.home-top-container {
+  background-color: transparent;
+}
+
+.home-top-container {
+  align-self: center;
+}
+
+/* .home-top-container {
+  margin: 0;
+} */
+
 .projectpage-title {
   line-height: 1.2;
 }
 
 .paragraph {
   white-space: pre-line;
+}
+
+.project-page-cover {
+  width: 100%;
+  height: 50vh;
+  max-height: 700px;
+  /*  background: no-repeat top center; */
+  /* background-size: 80%; */
+  background-position: -500px;
+  object-fit: cover;
+  background-size: clamp(3000px, 300%, 7000px) auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }

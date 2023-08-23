@@ -30,7 +30,7 @@ export default function Projects() {
   };
 
   return (
-    <div>
+    <div className="component-padding-top">
       <h2>Tidigare projekt</h2>
       <div className="filter-button-container">
         <button

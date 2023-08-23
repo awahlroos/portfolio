@@ -17,7 +17,7 @@ export default function Project({
   coverImage,
 }: Props) {
   return (
-    <div id="top-container">
+    <div className="project-top-container">
       <Link to={{ pathname: `/project/${id}` }} className="no-style">
         <div id="project-container">
           <div className="text-container">

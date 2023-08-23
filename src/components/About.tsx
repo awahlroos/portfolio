@@ -4,14 +4,17 @@ import about_me_image from "../images/about_me_image.png";
 import interestsData from "../data/interestsData.json";
 import Interests from "./Interests";
 
-export default function About() {
+interface Props {
+  innerRef: any;
+}
+
+export default function About({ innerRef }: Props) {
   return (
-    <div className="top-container">
+    <div className="top-container component-padding-top" ref={innerRef}>
       <div className="about-container">
         <div className="title">
           <h2>Om mig</h2>
         </div>
-
         <div id="about-me-container">
           <img src={about_me_image} id="about-me-image" alt="About me image" />
           <p id="about-me-text">

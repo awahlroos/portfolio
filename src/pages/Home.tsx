@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import Landing from "../components/Landing";
 import About from "../components/About";
 import Projects from "../components/Projects";
@@ -6,16 +6,18 @@ import "../styles/App.css";
 import Footer from "../components/Footer";
 
 export default function Home() {
+  const innerRef = useRef<HTMLDivElement>();
+
+  const handleClick = () => {
+    innerRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <>
+      <Landing handleClick={handleClick} />
       <div className="home-top-container">
-        <div className="spacer"></div>
-        <Landing />
-        <div className="spacer"></div>
-        <About />
-        <div className="spacer"></div>
+        <About innerRef={innerRef} />
         <Projects />
-        <div className="spacer"></div>
       </div>
       <Footer />
     </>

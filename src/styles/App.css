@@ -1,6 +1,7 @@
 :root {
   --off-white: #fffbf5;
   --black: #1d1d1d;
+  --lighter-black: #1d1d1df0;
   --gray: #4d4b4a;
 }
 
@@ -24,6 +25,10 @@ body {
 h1,
 h2 {
   font-weight: 800;
+}
+
+.component-padding-top {
+  padding-top: 150px;
 }
 
 .primary-button {
@@ -68,11 +73,9 @@ h2 {
   text-align: center;
 }
 
-.filter-button-active:hover {
-  background-color: #1d1d1df0;
-}
-
+.filter-button-active:hover,
 .primary-button:hover {
+  background-color: var(--lighter-black);
 }
 
 .App {
