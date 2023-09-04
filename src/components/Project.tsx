@@ -40,7 +40,7 @@ export default function Project({
             <img id="project-image" src={coverImage} />
           </div>
           <div className="button-container">
-            <button id="circle-button"></button>
+            <button id="circle-button" />
           </div>
         </div>
       </Link>
