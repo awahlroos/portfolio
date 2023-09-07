@@ -16,7 +16,7 @@ export default function About({ innerRef }: Props) {
           <h2>Om mig</h2>
         </div>
         <div id="about-me-container">
-          <img src={about_me_image} id="about-me-image" alt="About me image" />
+          <img src={about_me_image} id="about-me-image" alt="Image of me" />
           <p id="about-me-text">
             Jag heter Alex Wahlroos och studerar fjärde året på
             civilingenjörsprogrammet interaktion och design vid Umeå

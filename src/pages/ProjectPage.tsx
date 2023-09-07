@@ -40,7 +40,7 @@ export default function ProjectPage() {
           project.images.length > 0 && [
             <h3>Bilder</h3>,
             project.images.map((image) => {
-              <img src={image} />;
+              <img src={image} alt="Project image" />;
             }),
           ]}
       </div>

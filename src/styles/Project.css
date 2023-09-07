@@ -3,6 +3,7 @@
 }
 
 #project-container {
+  height: 440px;
   display: flex;
   padding: 50px;
   border-radius: 10px;
@@ -15,9 +16,13 @@
 }
 
 #project-container:hover #circle-button {
-  background: url(../images/white-arrow.png) no-repeat center center,
+  background: url(../assets/arrow_white.svg) no-repeat center center,
     var(--black);
   background-size: 24px 24px;
+}
+
+.arrow-button {
+  background-image: url(../assets/arrow.svg);
 }
 
 #project-container:hover .image-container {
@@ -56,7 +61,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: url(../images/arrow.png) no-repeat center center;
+  /* background: url(../images/arrow.png) no-repeat center center; */
+  background: url(../assets/arrow.svg) no-repeat center center;
   background-size: 24px 24px;
 }
 
@@ -99,8 +105,8 @@
   }
 }
 
-@media (min-width: 769px) {
+/* @media (min-width: 769px) {
   #project-container {
     height: 440px;
   }
-}
+} */
