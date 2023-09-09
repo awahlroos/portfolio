@@ -92,6 +92,48 @@ h2 {
   padding-bottom: 5rem;
 }
 
+/* --- Animations --- */
+
+.drop-in {
+  animation-delay: 200ms;
+  -webkit-animation-delay: 300ms;
+}
+
+.drop-in-2 {
+  animation-delay: 400ms;
+  -webkit-animation-delay: 600ms;
+}
+
+.drop-in-3 {
+  animation-delay: 600ms;
+  -webkit-animation-delay: 900ms;
+}
+
+.drop-in-4 {
+  animation-delay: 800ms;
+  -webkit-animation-delay: 1200ms;
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation-name: transitionIn;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+
 /*#root {
   max-width: 1280px;
   margin: 0 auto;

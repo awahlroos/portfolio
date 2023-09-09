@@ -17,7 +17,7 @@ export default function Footer() {
               </p>
               <div className="contact-wrapper">
                 <div className="contact-container">
-                  <img src={mailIcon} className="contact-icon" />
+                  <img src={mailIcon} className="contact-icon" alt="Mail" />
                   <a
                     href="mailto:alex.wahlroos@hotmail.com"
                     className="contact-text"
@@ -26,7 +26,11 @@ export default function Footer() {
                   </a>
                 </div>
                 <div className="contact-container">
-                  <img src={linkedinIcon} className="contact-icon" />
+                  <img
+                    src={linkedinIcon}
+                    className="contact-icon"
+                    alt="LinkedIn"
+                  />
                   <a
                     href="https://www.linkedin.com/in/alexwahlroos"
                     target="_blank"
@@ -36,7 +40,7 @@ export default function Footer() {
                   </a>
                 </div>
                 <div className="contact-container">
-                  <img src={githubIcon} className="contact-icon" />
+                  <img src={githubIcon} className="contact-icon" alt="GitHub" />
                   <a
                     href="https://github.com/awahlroos"
                     target="_blank"
@@ -48,7 +52,11 @@ export default function Footer() {
               </div>
             </div>
             <div className="right-flex">
-              <img className="footer-image" src={footerImage}></img>
+              <img
+                className="footer-image"
+                src={footerImage}
+                alt="Image of me"
+              ></img>
             </div>
           </div>
           <small className="watermark-text">Portfolio - Alex Wahlroos</small>
