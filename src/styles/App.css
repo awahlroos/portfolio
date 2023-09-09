@@ -6,12 +6,11 @@
 }
 
 ::selection {
-  background-color: #ffbe5b;
+  background-color: #ffd28f;
   color: var(--black);
 }
 
 * {
-  background-color: var(--off-white);
   color: var(--black);
   font-family: "Poppins", sans-serif;
 }

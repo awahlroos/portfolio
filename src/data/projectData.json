@@ -5,8 +5,31 @@
     "shortDesc": "Daily UI är en designutmaning där 100 olika designproblem ska lösas. Det kan vara allt från en landningssida för en produkt till en 404-sida. Här är de utmaningar jag gjort hittills!",
     "tags": ["Design"],
     "background": "Daily UI är en designutmaning som utmanar användare att designa 100 olika grafiska designer såsom gränssnitt och logotyper med unika inslag. Detta är ett kul sätt att utmana och utveckla sina färdigheter i främst UI-området.",
-    "coverImage": "/src/images/daily_ui/daily_ui_cover.png",
-    "images": []
+    "coverImage": "/src/images/daily-ui/daily_ui_cover.png",
+    "images": [
+      "daily-ui-1",
+      "daily-ui-2",
+      "daily-ui-3",
+      "daily-ui-4",
+      "daily-ui-5",
+      "daily-ui-6"
+    ],
+    "imageCaption": [
+      "Daily UI #001",
+      "Daily UI #002",
+      "Daily UI #003",
+      "Daily UI #004",
+      "Daily UI #005",
+      "Daily UI #006"
+    ],
+    "imageSubCaption": [
+      "Sign Up",
+      "Credit Card Checkout",
+      "Landing Page",
+      "Calculator",
+      "App Icon",
+      "User Profile"
+    ]
   },
   {
     "id": "chare",
@@ -17,7 +40,7 @@
     "idea": "",
     "process": "",
     "coverImage": "/src/images/chare/chare_cover.png",
-    "images": []
+    "images": ["a"]
   },
   {
     "id": "greetup",
@@ -49,7 +72,7 @@
     "background": "",
     "idea": "",
     "process": "",
-    "coverImage": "/src/images/kansla_av_narvaro/kansla_av_narvaro_cover.png",
+    "coverImage": "/src/images/kansla-av-narvaro/kansla_av_narvaro_cover.png",
     "images": []
   }
 ]
