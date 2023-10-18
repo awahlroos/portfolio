@@ -20,7 +20,7 @@
   justify-content: center;
   align-items: center;
   max-width: 65rem;
-  margin: 0 clamp(16px, 2vw, 20vw);
+  margin: 0 clamp(16px, 5vw, 200px);
 }
 
 #landing-image {

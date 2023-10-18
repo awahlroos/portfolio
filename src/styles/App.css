@@ -28,6 +28,7 @@ h2 {
 
 .component-padding-top {
   padding-top: 150px;
+  margin: 0 clamp(16px, 5vw, 200px);
 }
 
 .primary-button {
@@ -85,7 +86,6 @@ h2 {
 
 .home-top-container {
   max-width: 65rem;
-  margin: 0 clamp(16px, 2vw, 200px);
 }
 
 .spacer {

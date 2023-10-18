@@ -3,7 +3,7 @@
 }
 
 #project-container {
-  height: 440px;
+  min-height: 440px;
   display: flex;
   padding: 50px;
   border-radius: 10px;

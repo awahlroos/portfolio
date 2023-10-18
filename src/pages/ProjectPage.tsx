@@ -17,18 +17,32 @@ export default function ProjectPage() {
 
   return (
     <>
-      <div
+      {/* <div
         className="project-page-cover"
-        style={{
-          backgroundImage: `url(/images/${project.id}_large_cover.jpg)`,
-        }}
-      >
-        <div className="home-top-container">
-          <h1 className="projectpage-title">{project.title}</h1>
-          <p>{project.shortDesc}</p>
+        style={
+          {
+            //backgroundImage: `url(/images/${project.id}_large_cover.jpg)`,
+          }
+        }
+      > */}
+      {/* <div className="home-top-container padding">
+          <h1 className="projectpage-white-text">{project.title}</h1>
+          <p className="projectpage-white-text">{project.shortDesc}</p>
+        </div> */}
+
+      <div className="home-top-container padding">
+        <div className="project-page-cover">
+          <div>
+            <h1 className="projectpage-white-text">{project.title}</h1>
+            <p className="projectpage-white-text projectpage-margin-bottom">
+              {project.shortDesc}
+            </p>
+          </div>
+          <img
+            src={`/images/${project.images[0]}.png`}
+            className="projectpage-cover-image"
+          ></img>
         </div>
-      </div>
-      <div className="home-top-container">
         {project.background && (
           <>
             <h3 style={{ marginTop: "10vh" }}>Bakgrund</h3>
@@ -66,13 +80,11 @@ export default function ProjectPage() {
                   </div>`;
                 },
               }}
-              breakpoints={
-                {
-                  800: {
-                    slidesPerView: 1.25
-                  }
-                }
-              }
+              breakpoints={{
+                800: {
+                  slidesPerView: 1.25,
+                },
+              }}
             >
               {project.images.map((image, index) => (
                 <SwiperSlide className="swiper-slide">
@@ -80,9 +92,19 @@ export default function ProjectPage() {
                     <img
                       src={`/images/${image}.png`}
                       alt={`Project Image ${index + 1}`}
-                      style={{ width: "100%", height: "100%" }}
+                      style={{
+                        width: "30%",
+                        height: "100%",
+                        display: "flex",
+                        margin: "0 auto",
+                      }}
                     />
-                    <figcaption><div><p>{project.imageCaption[index]}</p><h5>{project.imageSubCaption[index]}</h5></div></figcaption>
+                    <figcaption>
+                      <div>
+                        <p>{project.imageCaption[index]}</p>
+                        <h5>{project.imageSubCaption[index]}</h5>
+                      </div>
+                    </figcaption>
                   </figure>
                 </SwiperSlide>
               ))}
