@@ -32,9 +32,9 @@ export default function ProjectPage() {
 
       <div className="home-top-container padding">
         <div className="project-page-cover">
-          <div>
-            <h1 className="projectpage-white-text">{project.title}</h1>
-            <p className="projectpage-white-text projectpage-margin-bottom">
+          <div className="test">
+            <h1 className="projectpage-white-text projectpage-title">{project.title}</h1>
+            <p className="projectpage-white-text">
               {project.shortDesc}
             </p>
           </div>
@@ -108,7 +108,6 @@ export default function ProjectPage() {
                   </figure>
                 </SwiperSlide>
               ))}
-              <div className="swiper-custom-pagination"></div>
             </Swiper>
           </>
         )}

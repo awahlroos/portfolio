@@ -21,12 +21,14 @@ export default function Project({ handleClick }: Props) {
               presentera min portfolio och ett urval av arbeten jag gjort under
               min studietid. Hoppas du hittar något du gillar!
             </p>
+            <div className="full-width">
             <button
               className="primary-button drop-in-4 fade-in"
               onClick={handleClick}
             >
               Läs mer
             </button>
+            </div>
           </div>
           <div id="landing-image-container">
             <img

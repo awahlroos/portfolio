@@ -15,12 +15,12 @@
       "daily-ui-6"
     ],
     "imageCaption": [
-      "Daily UI #001",
-      "Daily UI #002",
-      "Daily UI #003",
-      "Daily UI #004",
-      "Daily UI #005",
-      "Daily UI #006"
+      "Daily UI #001 (1/6)",
+      "Daily UI #002 (2/6)",
+      "Daily UI #003 (3/6)",
+      "Daily UI #004 (4/6)",
+      "Daily UI #005 (5/6)",
+      "Daily UI #006 (6/6)"
     ],
     "imageSubCaption": [
       "Sign Up",
@@ -36,11 +36,45 @@
     "title": "Samåkningsappen Chare",
     "shortDesc": "I kursen \"Prototyputveckling för mobila applikationer\" skapade jag och min projektgrupp samåkningsappen Chare i Android Studio. Ett första smakprov på att utveckla för mobila enheter!",
     "tags": ["Apputveckling", "Design"],
-    "background": "",
-    "idea": "",
-    "process": "",
+    "background": "Denna applikation skapades i en grupp om fem studenter under kursen Utveckling av mobila applikationer. Möjliga val av applikation var webb, iOS eller Android och inga specifika krav för utformning eller innehåll på applikationen ställdes. Tidsramen för kursen var 7.5hp (ca. 4 veckor).",
+    "idea": "Övergripande handlar denna applikation om att användare som ska köra en viss sträcka kan lägga ut en annons om detta. I annonsen väljer den som ska köra bland annat vilka preferenser denne har (exempelvis hur många platser som finns, om man kan stanna längs vägen, om det finns utrymme för bagage mm.), pris för resan och annan intressant information. Andra användare kan sedan skicka förfrågan om att åka med den sträckan.\n\nSyftet med applikationen är alltså att minimera antalet bilar som körs med en eller ett fåtal personer i bilen, vilket skulle gynna både miljön och plånboken. Medresenärerna betalar ett lägre pris än andra färdmedel och den som kör får en kompensation för att ta med andra. Win-win helt enkelt!",
+    "process": "Detta projekt inleddes med att en projektidé för en mobilapplikation gemensamt togs fram inom projektgruppen. Utifrån projektidén undersökte varje gruppmedlem individuellt appmarknaden för att utvärdera appar som relaterar till den idé som tagits fram. Varje gruppmedlem gjorde en heuristisk utvärdering på två utvalda applikationer, där bland annat målgrupp, användarvänlighet, navigation, struktur, interaktion och layout undersöktes. Efter detta skapade varje gruppmedlem en LoFi-prototyp, genom så kallad parallell prototyping, utifrån projektidén där den tidigare designutvärderingen användes som hjälpmedel för att skapa en bättre produkt. LoFi-prototyperna användartestades och uppdaterades utifrån resultaten.\n\nEfter alla färdigställt var sin LoFi-prototyp utvärderades samtliga prototyper av alla projektmedlemmar, där de bästa egenskaperna plockades ut och användes för att skapa en gemensam LoFi-prototyp. Denna prototyp utvecklades senare till en HiFi-prototyp som skulle ligga till grund för implementationen.\n\nBackend består av ett webb-API skrivet i ASP.NET som använder Entity Framework. Till lagring används databasenhanteraren MySQL. Frontend utvecklades i Android Studio i  programspråket Kotlin. För versionshantering har GitHub använts.",
     "coverImage": "/src/images/chare/chare_cover.png",
-    "images": ["a"]
+    "images": [
+      "chare-hifi-1",
+      "chare-hifi-2",
+      "chare-hifi-3",
+      "chare-hifi-4",
+      "chare-hifi-5",
+      "chare-lofi-1",
+      "chare-lofi-2",
+      "chare-lofi-3",
+      "chare-lofi-4",
+      "chare-lofi-5",
+      "chare-lofi-6",
+      "chare-lofi-7"
+    ],
+    "imageCaption": [
+      "HiFi (1/5)",
+      "HiFi (2/5)",
+      "HiFi (3/5)",
+      "HiFi (4/5)",
+      "HiFi (5/5)",
+      "LoFi (1/7)",
+      "LoFi (2/7)",
+      "LoFi (3/7)",
+      "LoFi (4/7)",
+      "LoFi (5/7)",
+      "LoFi (6/7)",
+      "LoFi (7/7)"
+    ],
+    "imageSubCaption": [
+      "Sök resa",
+      "Sökresultat",
+      "Filtrera",
+      "Detaljsida",
+      "Detaljsida profil"
+    ]
   },
   {
     "id": "greetup",
@@ -51,28 +85,82 @@
     "idea": "Denna applikation är baserad på att användare kan skapa och delta i privata eller offentliga evenemang. En användare kan lägga upp ett evenemang som denne tänker anordna och andra användare kan fylla i att de kommer delta, eller ansöka om att delta om evenemanget är privat. Evenemangen som användare får upp på sin “Explore”-sida är matchade med de funktionsvariationer användaren angett, vilket innebär att endast relevanta inlägg kan visas. Är ett evenemang inte lämpligt för en användare givet dennes funktionsvariation visas en varning om detta, för att ge användaren förutsättningar att delta på lika villkor. Övriga funktionalitet som skulle finnas var att användare kan samla på och visa upp badges/märken (dvs. ha inslag av gamification), som kan erhållas vid utförande av olika aktiviteter i applikationen. Ett forum skulle även finnas för textinlägg där tanken var att enklare kunna kommunicera med sitt grannskap.",
     "process": "Till att börja med tog vår studentgrupp del av förarbetet studenterna på ECU gjort. Arbetet handlade främst om att sätta sig in i målgruppen och vilka problem och behov som finns. Därefter skapades en prototyp i Figma av vår studentgrupp som presenterades för ECU-gruppen som gav feedback på prototypen. Vissa ändringar gjordes i prototypen och efter vidare återkoppling av ECU-gruppen slogs den färdiga prototypen fast.\n\nEfter prototypen färdigställts skapades en databas i MySQL och ett webb-API skrivet i ASP.NET som använder Entity Framework. Utvecklingen fortsatte sedan i React.",
     "coverImage": "/src/images/greetup/greetup_cover.png",
-    "images": []
+    "images": [
+      "greetup-1",
+      "greetup-2",
+      "greetup-3",
+      "greetup-4",
+      "greetup-5"
+    ],
+    "imageCaption": [
+      "1/5",
+      "2/5",
+      "3/5",
+      "4/5",
+      "5/5"
+    ],
+    "imageSubCaption": [
+      "Login",
+      "Flöde",
+      "Eventsida",
+      "Planerade event",
+      "Profil"
+    ]
   },
   {
     "id": "makrokoll",
     "title": "Makrokoll",
     "shortDesc": "Under den sista uppgiften i kursen \"Utveckling av mobila applikationer\" skapade jag en receptapplikation för Android som gör det enkelt att hålla koll på vad maten vi äter faktiskt innehåller.",
     "tags": ["Apputveckling", "Design"],
-    "background": "",
-    "idea": "",
-    "process": "",
+    "background": "Denna applikation skapade jag under sista uppgiften av kursen Utveckling av mobila applikationer. Det fanns inget krav på innehåll i applikationen men den skulle uppfylla vissa tekniska krav. Den avsatta tiden för uppgiften omfattade lite drygt 1,5 arbetsvecka.",
+    "idea": "Tanken med Makrokoll är att applikationen tillhandahåller detaljerad information om kalorier och makronutrienter (protein, fett och kolhydrater) i varje recept för att hjälpa användare fatta hälsosamma kostval. Målgruppen omfattar tränings- och kostintresserade personer, men även de som vill ha bättre koll på sin kost i allmänhet. Användare kan publicera egna recept och hitta recept baserat på deras önskade proteinkälla, eftersom val av protein ofta ligger till grund för vilket kostval man tar.",
+    "process": "Arbetet började med att göra en övergripande skiss av applikationen, som inkluderade dess innehåll och struktur (både grafiskt och för själva koden i implementationen).\n\nArkitekturmönstret som använts för att strukturera koden är MVC (Model-View-Controller) som innebär att separera beroendet mellan vy och modell genom att ha ett mellanlager, controller, som sköter kommunikationen mellan vy och modell. Detta har, där det varit lämpligt, kompletterats med MVVM (Model-View-ViewModel), där en viewmodels kan betraktas som en controller vars främsta ansvar är att kommunicera med modellagret.\n\nModellerna består dels i form av vanliga modell-/dataklasser, dels i form en Room-databas. Room är ett abstraktionslager på SQLite vilket innebär ett smidigt sätt att lagra och hantera data som genereras i applikationen. Applikationen är skriven i Kotlin.",
     "coverImage": "/src/images/makrokoll/makrokoll_cover.png",
-    "images": []
+    "images": ["makrokoll-1","makrokoll-2","makrokoll-3","makrokoll-4","makrokoll-5","makrokoll-6","makrokoll-7","makrokoll-8","makrokoll-9"],
+    "imageCaption": [
+      "1/9",
+      "2/9",
+      "3/9",
+      "4/9",
+      "5/9",
+      "6/9",
+      "7/9",
+      "8/9",
+      "9/9"
+    ],
+    "imageSubCaption": [
+      "Upptäck recept",
+      "Filtrera",
+      "Sökning",
+      "Sparade recept",
+      "Detaljsida recept",
+      "Detaljsida recept forts.",
+      "Publicera recept",
+      "Publicera recept forts.",
+      "Publicera recept forts."
+    ]
   },
   {
     "id": "kansla-av-narvaro",
     "title": "Känsla av närvaro",
     "shortDesc": "I kursen Produktutveckling i medieteknik med metoden \"Design-Build-Test\" jobbade jag och min projektgrupp med att skapa en känsla av närvaro på distans för svårt sjuka barn.",
     "tags": ["Design"],
-    "background": "",
+    "background": "Detta koncept skapades i en grupp om fem studenter under kursen Produktutveckling i medieteknik med metoden \"Design-Build-Test\". Det här projektet fokuserade på den icke medicinska delen av svårt sjuka barns tillfälliga vardagsliv och hade som avsikt att undersöka hur VR och andra tekniker kan användas för att skapa en känsla av närvaro på distans i klassrummet för barn som inte kan vara på plats.",
     "idea": "",
-    "process": "",
+    "process": "För att komma fram till detta har projektgruppen genomfört litteraturstudier som grund till vad som kan vara viktigt för närvaro på distans. Från detta skapades en enkät med avsikt att smala av och fokusera vad som är viktigast. Efter detta genomfördes intervjuer för att ta reda på vad det är i dessa viktiga delar som gör att de blir viktiga. På så sätt hoppades gruppen att kunna plocka isär de viktiga delarna och plocka ut det som skulle passa i konceptet.\n\nResultatet blev en konceptidé med tre delar, en för barnet på sjukhuset, en för klassrummet och klasskompisarna, och den sista för läraren. Varje del fick sin egen lista med funktioner som bör finnas i gränssnittet och utformningen.\n\nBarnet på sjukhuset kan kommunicera både genom VR-headset och genom en skärm, så som dator eller surfplatta. Barnet ska kunna styra en 360-kamera som är placerad på dennes plats i klassrummet. Det finns även en kamera som är riktad mot tavlan i klassrummet. Barnet filmas inte utan representeras av en avatar i vilken barnet själv kan välja hur denne ska se ut samt känslor som ska uttryckas. För att kommunicera med klassrummet används en mikrofon, men barnet kan själv välja hur “högt” denne vill prata, viska, prata “normalt”, prata högt eller vara mute:ad. Barnet kan också välja om denne vill prata med någon specifik person i klassrummet. Andra funktioner är att se sitt schema, se hur högljutt det är i klassrummet, chatta med läraren och nå sin lärplattform. För detta gränssnitt skapades även en Hi-Fi prototyp som visualisering av funktionerna.\n\nI klassrummet ska barnet representeras av en avatar, genom ett hologram. Barnen i klassrummet förväntas redan ha någon typ av enhet så som en platta vilken kan implementera ett gränssnitt för dem. I detta gränssnitt kan barnet på sjukhuset nå dem via högtalare på surfplattan.\n\nLärarens funktionalitet är till för att underlätta för både lärare och barnet på sjukhuset med chatt, möjlighet att uppdatera och ändra schemat som barnet ser. Här är dock viktigt att påpeka att funktionaliteten inte inkluderar någon möjlighet för läraren att begränsa barnet (exempelvis stänga av dennes mikrofon under lektioner och så vidare). Detta för att barnet på sjukhuset ska få samma möjligheter som barnen i klassrummet.",
     "coverImage": "/src/images/kansla-av-narvaro/kansla_av_narvaro_cover.png",
-    "images": []
+    "images": ["kansla-av-narvaro-1", "kansla-av-narvaro-2", "kansla-av-narvaro-3", "kansla-av-narvaro-4"],
+    "imageCaption": [
+      "1/4",
+      "2/4",
+      "3/4",
+      "4/4"
+    ],
+    "imageSubCaption": [
+      "Hemskärm",
+      "Väntrum",
+      "Klassrumsvy",
+      "Intyg"
+    ]
   }
 ]

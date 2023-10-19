@@ -15,14 +15,15 @@ h3,
   margin: 0;
 } */
 
+.projectpage-title {
+  word-break: break-all;
+  hyphens: auto;
+}
+
 .projectpage-white-text {
   color: var(--off-white);
   margin-right: clamp(16px, 10vw, 100px);
   /* line-height: 1.2; */
-}
-
-.projectpage-margin-bottom {
-  margin-bottom: clamp(16px, 10vw, 100px);
 }
 
 .paragraph {
@@ -49,7 +50,8 @@ h3,
 }
 
 .projectpage-cover-image {
-  width: 150px;
+  width: clamp(75px, 30vw, 150px);
+  height: 100%;
   position: relative;
   top: -50px;
 }
@@ -168,5 +170,25 @@ h5 {
 @media (max-width: 768px) {
   .swiper-slide figure {
     padding-bottom: 10px;
+    background-color: transparent;
+  }
+
+  .projectpage-white-text {
+    margin-right: 20px;
+  }
+
+  .project-page-cover {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .test {
+    position: relative;
+    top: -50px;
+  }
+  .projectpage-cover-image{
+    width: 150px;
+
+    justify-content: center;
   }
 }

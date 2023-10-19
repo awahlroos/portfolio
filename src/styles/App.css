@@ -31,6 +31,10 @@ h2 {
   margin: 0 clamp(16px, 5vw, 200px);
 }
 
+.full-width{
+  width: 100%;
+}
+
 .primary-button {
   border: none;
   background: none;
