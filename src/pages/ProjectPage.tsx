@@ -32,7 +32,7 @@ export default function ProjectPage() {
         </div>
         {project.background && (
           <>
-            <h3 style={{ marginTop: "10vh" }}>Bakgrund</h3>
+            <h3 className="background-margin">Bakgrund</h3>
             <p className="paragraph">{project.background}</p>
           </>
         )}

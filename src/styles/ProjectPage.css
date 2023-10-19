@@ -42,6 +42,10 @@ h3,
   top: -50px;
 }
 
+.background-margin {
+  margin-top: 50px;
+}
+
 /* Slider css */
 
 .swiper-slide img {
