@@ -17,26 +17,13 @@ export default function ProjectPage() {
 
   return (
     <>
-      {/* <div
-        className="project-page-cover"
-        style={
-          {
-            //backgroundImage: `url(/images/${project.id}_large_cover.jpg)`,
-          }
-        }
-      > */}
-      {/* <div className="home-top-container padding">
-          <h1 className="projectpage-white-text">{project.title}</h1>
-          <p className="projectpage-white-text">{project.shortDesc}</p>
-        </div> */}
-
       <div className="home-top-container padding">
         <div className="project-page-cover">
           <div className="test">
-            <h1 className="projectpage-white-text projectpage-title">{project.title}</h1>
-            <p className="projectpage-white-text">
-              {project.shortDesc}
-            </p>
+            <h1 className="projectpage-white-text projectpage-title">
+              {project.title}
+            </h1>
+            <p className="projectpage-white-text">{project.shortDesc}</p>
           </div>
           <img
             src={`/images/${project.images[0]}.png`}

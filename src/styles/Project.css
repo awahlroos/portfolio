@@ -26,8 +26,7 @@
 }
 
 #project-container:hover .image-container {
-  /*transform: rotate(-2deg);
-  transition: 300ms ease-in;*/
+  transform: translateY(-3px);
 }
 
 .no-style {
@@ -61,7 +60,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* background: url(../images/arrow.png) no-repeat center center; */
   background: url(../assets/arrow.svg) no-repeat center center;
   background-size: 24px 24px;
 }
@@ -78,6 +76,7 @@
 .image-container {
   display: flex;
   align-items: center;
+  transition: 300ms ease-in-out;
 }
 
 #project-image {
@@ -104,9 +103,3 @@
     width: clamp(1px, 80%, 300px);
   }
 }
-
-/* @media (min-width: 769px) {
-  #project-container {
-    height: 440px;
-  }
-} */
