@@ -2,16 +2,16 @@
   {
     "title": "UI / Design",
     "skills": ["Figma"],
-    "icon": "/src/images/ui-icon.png"
+    "icon": "./src/images/ui-icon.png"
   },
   {
     "title": "UX / Användare",
     "skills": ["LoFi", "Användartester", "Double diamond"],
-    "icon": "/src/images/ux-icon.png"
+    "icon": "./src/images/ux-icon.png"
   },
   {
     "title": "Utveckling",
     "skills": ["Webbutveckling", "Apputveckling"],
-    "icon": "/src/images/programming-icon.png"
+    "icon": "./src/images/programming-icon.png"
   }
 ]
