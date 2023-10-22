@@ -9,7 +9,7 @@ interface Props {
 export default function Interests({ title, skills, icon }: Props) {
   return (
     <div className="interest-container">
-      <img className="interest-icon" src={icon} />
+      <img className="interest-icon" src={require(icon)} />
       <h4>{title}</h4>
       {skills.map((skill) => (
         <p key={skill} className="skill">
