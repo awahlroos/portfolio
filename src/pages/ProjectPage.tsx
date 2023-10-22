@@ -15,6 +15,19 @@ export default function ProjectPage() {
     return <p>Projektet hittades inte</p>;
   }
 
+  const swiperProps = {
+    modules: [Navigation],
+    slidesPerView: 1,
+    centeredSlides: true,
+    loop: true,
+    navigation: true,
+    breakpoints: {
+      800: {
+        slidesPerView: 1.25,
+      },
+    },
+  };
+
   return (
     <>
       <div className="home-top-container padding">
@@ -51,28 +64,7 @@ export default function ProjectPage() {
         {project.images && project.images.length > 0 && (
           <>
             <h3>Bilder</h3>
-            <Swiper
-              modules={[Navigation, Pagination]}
-              slidesPerView={1}
-              centeredSlides={true}
-              loop={true}
-              navigation={true}
-              pagination={{
-                el: ".swiper-custom-pagination",
-                clickable: true,
-                renderBullet: function (index, className) {
-                  return `<div className=${className}>
-                  <span className="number">${index + 1}</span>
-                  <span className="line"/>
-                  </div>`;
-                },
-              }}
-              breakpoints={{
-                800: {
-                  slidesPerView: 1.25,
-                },
-              }}
-            >
+            <Swiper {...swiperProps}>
               {project.images.map((image, index) => (
                 <SwiperSlide className="swiper-slide">
                   <figure>
