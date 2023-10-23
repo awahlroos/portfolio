@@ -39,7 +39,7 @@ export default function ProjectPage() {
             <p className="projectpage-white-text">{project.shortDesc}</p>
           </div>
           <img
-            src={`/images/${project.images[0]}.png`}
+            src={`/portfolio/images/${project.images[0]}.png`}
             className="projectpage-cover-image"
           ></img>
         </div>

@@ -7,11 +7,11 @@
   {
     "title": "UX / Användare",
     "skills": ["LoFi", "Användartester", "Double diamond"],
-    "icon": "/images/ux-icon.png"
+    "icon": "/portfolio/images/ux-icon.png"
   },
   {
     "title": "Utveckling",
     "skills": ["Webbutveckling", "Apputveckling"],
-    "icon": "/images/programming-icon.png"
+    "icon": "/portfolio/images/programming-icon.png"
   }
 ]
