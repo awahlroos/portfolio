@@ -167,6 +167,6 @@
     "coverImage": "/portfolio/images/lab-plant/lab_plant_cover.png",
     "images": ["lab-plant-1", "lab-plant-2", "lab-plant-3", "lab-plant-4", "lab-plant-5"],
     "imageCaption": ["1/5", "2/5", "3/5", "4/5", "5/5"],
-    "imageSubCaption": ["Hemskärm", "Detaljsida blomma", "Detaljsida blomma forts.", "Betvattning", "Systemöversikt"]
+    "imageSubCaption": ["Hemskärm", "Detaljsida blomma", "Detaljsida blomma forts.", "Bevattning", "Systemöversikt"]
   }
 ]
