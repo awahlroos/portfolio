@@ -39,7 +39,7 @@ export default function ProjectPage() {
             <p className="projectpage-white-text">{project.shortDesc}</p>
           </div>
           <img
-            src={`/portfolio/images/${project.id}/${project.images[0]}.png`}
+            src={`/portfolio/images/${project.images[0]}.png`}
             className="projectpage-cover-image"
           ></img>
         </div>
@@ -69,7 +69,7 @@ export default function ProjectPage() {
                 <SwiperSlide className="swiper-slide">
                   <figure>
                     <img
-                      src={`/images/${image}.png`}
+                      src={`/portfolio/images/${image}.png`}
                       alt={`Project Image ${index + 1}`}
                       style={{
                         width: "30%",
