@@ -155,5 +155,18 @@
     ],
     "imageCaption": ["1/4", "2/4", "3/4", "4/4"],
     "imageSubCaption": ["Hemskärm", "Väntrum", "Klassrumsvy", "Intyg"]
+  },
+  {
+    "id": "lab-plant",
+    "title": "Lab Plant",
+    "shortDesc": "I kursen Design och tjänsteutveckling för Internet of Things gjorde vår projektgrupp ett övervakningssystem av en blomma.",
+    "tags": ["Webbutveckling", "Design"],
+    "background": "Detta projekt gjordes som en del i kursen Design och tjänsteutveckling för Internet of Things i en projektgrupp on fyra personer. Målet för projektet var att vi skulle lära oss mer om inbyggda system för Internet of Things genom att implementera vårt eget inbyggda system för ett smart hem.",
+    "idea": "Idén för projektet var att göra ett övervakningssystem för skötsel av blommor genom att analysera parametrar såsom luft- och jordfuktighet, ljus och temperatur, och samla detta i en webbapplikation som användare kan interagera med. Är någon av dessa värdena avvikande på ett genomsnitt av den senaste veckan, varnas användaren om applikationens gränssnitt. Systemet kan även varna användaren om nivån i vattenbehållaren är lågt, samt hur mycket vatten som är kvar.",
+    "process": "För att implementera systemet användes en Raspberry Pi, två stycken ESP32-mikrokontroller, en temperatur- och luftfuktighetssensor, en ljussensor, en jordfuktighetssensor samt en peristaltisk vattenpump.\n\nEn av de två ESP32 användes för att samla dator från alla sensorer, medan den andra användes för att köra vattenpumpen. Dessa kommunicerar med Raspberry Pi:en genom MQTT-protokoll. På vår Raspberry Pi implementerades koden för användargränssnittet samt att spara och behandla all information.",
+    "coverImage": "/portfolio/images/lab-plant/lab_plant_cover.png",
+    "images": ["lab-plant-1", "lab-plant-2", "lab-plant-3", "lab-plant-4", "lab-plant-5"],
+    "imageCaption": ["1/5", "2/5", "3/5", "4/5", "5/5"],
+    "imageSubCaption": ["Hemskärm", "Detaljsida blomma", "Detaljsida blomma forts.", "Betvattning", "Systemöversikt"]
   }
 ]
