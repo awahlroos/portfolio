@@ -32,10 +32,11 @@ export default function ProjectPage() {
     <>
       <div className="home-top-container padding">
         <div className="project-page-cover">
-          <div className="test">
+          <div className="projectpage-text-container">
             <h1 className="projectpage-white-text projectpage-title">
               {project.title}
             </h1>
+            <h3 className="projectpage-date-text">{project.date}</h3>
             <p className="projectpage-white-text">{project.shortDesc}</p>
           </div>
           <img

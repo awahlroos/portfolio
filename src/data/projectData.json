@@ -2,6 +2,7 @@
   {
     "id": "daily-ui",
     "title": "Daily UI",
+    "date": "Pågående",
     "shortDesc": "Daily UI är en designutmaning där 100 olika designproblem ska lösas. Det kan vara allt från en landningssida för en produkt till en 404-sida. Här är de utmaningar jag gjort hittills!",
     "tags": ["Design"],
     "background": "Daily UI är en designutmaning som utmanar användare att designa 100 olika grafiska designer såsom gränssnitt och logotyper med unika inslag. Detta är ett kul sätt att utmana och utveckla sina färdigheter i främst UI-området.",
@@ -34,6 +35,7 @@
   {
     "id": "chare",
     "title": "Samåkningsappen Chare",
+    "date": "Hösten 2022",
     "shortDesc": "I kursen \"Prototyputveckling för mobila applikationer\" skapade jag och min projektgrupp samåkningsappen Chare i Android Studio. Ett första smakprov på att utveckla för mobila enheter!",
     "tags": ["Apputveckling", "Design"],
     "background": "Denna applikation skapades i en grupp om fem studenter under kursen Utveckling av mobila applikationer. Möjliga val av applikation var webb, iOS eller Android och inga specifika krav för utformning eller innehåll på applikationen ställdes. Tidsramen för kursen var 7.5hp (ca. 4 veckor).",
@@ -79,6 +81,7 @@
   {
     "id": "greetup",
     "title": "Sociala mediet GreetUp",
+    "date": "Våren 2022",
     "shortDesc": "I samarbete med studenter på Edith Cowan University i Perth, Australien, gjorde vår projektgrupp en webapplikation med syfte att bryta social isolation bland äldre till följd av coronapandemin.",
     "tags": ["Webbutveckling", "Design"],
     "background": "Detta projekt startade under kursen \"Teknik för sociala medier\" och var ett samarbete med marknadsföringsstudenter på Edith Cowan University (ECU) i Perth, Australien. Temat för kursen (och applikationen) var att bryta social isolation bland äldre i Australien till följd av coronapandemin. Målgruppen vi valde för vårt projekt var seniorer (65+ år) i Australien som har någon form av fysisk funktionsvariation.\n\nVår projektgrupp om fyra studenter jobbade tillsammans med en annan studentgrupp från ECU för att ta fram underlag för applikationen, som sedan ECU skulle marknadsföra. Endast vår egen studentgrupp arbetade med själva designen och implementationen av applikationen, vilket möjliggjorde att vi kunde kombinera implementationsfasen med projektmomentet i kursen Applikationsutveckling för internet som vi läste parallellt. Detta möjliggjorde att vi kunde lägga mer tid på projektet och uppnå ett mer genomarbetat resultat. Tidsramen för projektet var knappt 7.5hp (ca. 4 veckor).",
@@ -98,6 +101,7 @@
   {
     "id": "makrokoll",
     "title": "Makrokoll",
+    "date": "Våren 2023",
     "shortDesc": "Under den sista uppgiften i kursen \"Utveckling av mobila applikationer\" skapade jag en receptapplikation för Android som gör det enkelt att hålla koll på vad maten vi äter faktiskt innehåller.",
     "tags": ["Apputveckling", "Design"],
     "background": "Denna applikation skapade jag under sista uppgiften av kursen Utveckling av mobila applikationer. Det fanns inget krav på innehåll i applikationen men den skulle uppfylla vissa tekniska krav. Den avsatta tiden för uppgiften omfattade lite drygt 1,5 arbetsvecka.",
@@ -141,6 +145,7 @@
   {
     "id": "kansla-av-narvaro",
     "title": "Känsla av närvaro",
+    "date": "Våren 2022",
     "shortDesc": "I kursen Produktutveckling i medieteknik med metoden \"Design-Build-Test\" jobbade jag och min projektgrupp med att skapa en känsla av närvaro på distans för svårt sjuka barn.",
     "tags": ["Design"],
     "background": "Detta koncept skapades i en grupp om fem studenter under kursen Produktutveckling i medieteknik med metoden \"Design-Build-Test\". Det här projektet fokuserade på den icke medicinska delen av svårt sjuka barns tillfälliga vardagsliv och hade som avsikt att undersöka hur VR och andra tekniker kan användas för att skapa en känsla av närvaro på distans i klassrummet för barn som inte kan vara på plats.",
@@ -159,6 +164,7 @@
   {
     "id": "lab-plant",
     "title": "Lab Plant",
+    "date": "Våren 2022",
     "shortDesc": "I kursen Design och tjänsteutveckling för Internet of Things gjorde vår projektgrupp ett övervakningssystem av en blomma.",
     "tags": ["Webbutveckling", "Design"],
     "background": "Detta projekt gjordes som en del i kursen Design och tjänsteutveckling för Internet of Things i en projektgrupp on fyra personer. Målet för projektet var att vi skulle lära oss mer om inbyggda system för Internet of Things genom att implementera vårt eget inbyggda system för ett smart hem.",
