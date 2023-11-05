@@ -22,7 +22,7 @@ export default function ProjectPage() {
     loop: true,
     navigation: true,
     breakpoints: {
-      800: {
+      768: {
         slidesPerView: 1.25,
       },
     },
@@ -72,12 +72,6 @@ export default function ProjectPage() {
                     <img
                       src={`/portfolio/images/${image}.png`}
                       alt={`Project Image ${index + 1}`}
-                      style={{
-                        width: "30%",
-                        height: "100%",
-                        display: "flex",
-                        margin: "0 auto",
-                      }}
                     />
                     <figcaption>
                       <div>

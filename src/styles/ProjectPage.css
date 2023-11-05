@@ -55,8 +55,16 @@ h3,
 
 /* Slider css */
 
+.swiper-slide {
+  margin-bottom: 80px;
+}
+
 .swiper-slide img {
   display: block;
+  width: 30%;
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
 }
 
 .swiper-slide figure {
@@ -66,8 +74,7 @@ h3,
   margin: 16px;
   overflow: hidden;
   min-height: 600px;
-  padding-bottom: 70px;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
   background-color: #fafafa;
   border-radius: 20px;
 }
@@ -111,6 +118,7 @@ h5 {
   height: 40px;
   border: 1px var(--black) solid;
   border-radius: 100%;
+  margin-top: -65px;
 }
 
 .swiper-button-next:after,
@@ -122,18 +130,6 @@ h5 {
 
 .swiper-button-next:after {
   margin-right: -4px;
-}
-
-.swiper-button-next:hover,
-.swiper-button-prev:hover {
-  background-color: var(--black);
-  transition: all 0.2s ease-in-out;
-}
-
-.swiper-button-next:hover::after,
-.swiper-button-prev:hover::after {
-  color: var(--off-white);
-  transition: all 0.2s ease-in-out;
 }
 
 .swiper-custom-pagination {
@@ -154,6 +150,11 @@ h5 {
 }
 
 @media (max-width: 768px) {
+  .swiper-slide img {
+    width: 60%;
+    max-width: 200px;
+  }
+
   .swiper-slide figure {
     padding-bottom: 10px;
     background-color: transparent;
@@ -174,7 +175,24 @@ h5 {
   }
   .projectpage-cover-image {
     width: 150px;
-
     justify-content: center;
+  }
+
+  .swiper-slide figcaption {
+    border-radius: 0.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .swiper-button-next:hover,
+  .swiper-button-prev:hover {
+    background-color: var(--black);
+    transition: all 0.2s ease-in-out;
+  }
+
+  .swiper-button-next:hover::after,
+  .swiper-button-prev:hover::after {
+    color: var(--off-white);
+    transition: all 0.2s ease-in-out;
   }
 }
