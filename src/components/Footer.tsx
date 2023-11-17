@@ -1,5 +1,5 @@
 import "../styles/Footer.css";
-import footerImage from "../images/footer-image.png";
+import footerImage from "../images/footer-image.webp";
 import mailIcon from "../assets/mail-icon.svg";
 import linkedinIcon from "../assets/linkedin-icon.svg";
 import githubIcon from "../assets/github-icon.svg";
