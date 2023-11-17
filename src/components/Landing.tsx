@@ -1,4 +1,4 @@
-import landing_image from "../images/landing_image.png";
+import landing_image from "../images/landing_image.webp";
 import "../styles/Landing.css";
 
 interface Props {
@@ -22,12 +22,12 @@ export default function Project({ handleClick }: Props) {
               min studietid. Hoppas du hittar något du gillar!
             </p>
             <div className="full-width">
-            <button
-              className="primary-button drop-in-4 fade-in"
-              onClick={handleClick}
-            >
-              Läs mer
-            </button>
+              <button
+                className="primary-button drop-in-4 fade-in"
+                onClick={handleClick}
+              >
+                Läs mer
+              </button>
             </div>
           </div>
           <div id="landing-image-container">
