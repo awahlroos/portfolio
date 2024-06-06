@@ -31,6 +31,7 @@ export default function About({ innerRef }: Props) {
             några områden som intresserar mig särskilt, nämligen...
           </p>
         </div>
+
         <div className="interests-container">
           {interestsData.map((interests) => (
             <Interests
