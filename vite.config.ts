@@ -28,6 +28,3 @@ export default defineConfig({
     },
   },
 });
-function tsconfigPaths(): import("vite").PluginOption {
-  throw new Error("Function not implemented.");
-}
