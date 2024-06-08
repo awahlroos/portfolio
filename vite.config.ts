@@ -5,7 +5,7 @@ import react from "@vitejs/plugin-react-swc";
 export default defineConfig({
   plugins: [react()],
   base: "/portfolio/",
-  build: {
+  /* build: {
     rollupOptions: {
       output: {
         chunkFileNames: "assets/js/[name]-[hash].js",
@@ -26,5 +26,5 @@ export default defineConfig({
         },
       },
     },
-  },
+  }, */
 });
