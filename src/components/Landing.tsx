@@ -16,18 +16,18 @@ export default function Project({ handleClick }: Props) {
               ALEX WAHLROOS
             </h1>
             <p className="drop-in-3 fade-in">
-              och jag är civilingenjörsstudent inom{" "}
+              och jag är nyexaminerad civilingenjör inom{" "}
               <b>interaktion och design</b>. Det här är en hemsida för att
               presentera min portfolio och ett urval av arbeten jag gjort under
               min studietid. Hoppas du hittar något du gillar!
             </p>
             <div className="full-width">
-            <button
-              className="primary-button drop-in-4 fade-in"
-              onClick={handleClick}
-            >
-              Läs mer
-            </button>
+              <button
+                className="primary-button drop-in-4 fade-in"
+                onClick={handleClick}
+              >
+                Läs mer
+              </button>
             </div>
           </div>
           <div id="landing-image-container">
