@@ -21,9 +21,9 @@ export default function About({ innerRef }: Props) {
           <p id="about-me-text">
             Jag heter Alex Wahlroos och har precis studerat klart
             civilingenjörsprogrammet interaktion och design vid Umeå
-            Universitet. En vanlig beskrivning av detta program är att{" "}
+            universitet. En vanlig beskrivning av detta program är att{" "}
             <b>mötet mellan människa och maskin</b> står i fokus, vilket i
-            praktiken innebär att designa och skapa intuitiva och
+            praktiken innebär att designa och utveckla intuitiva och
             användarvänliga gränssnitt och system.{" "}
             <b>Designprocesser, prototyputveckling och implementation</b> är
             centrala delar vilket återkommer löpande genom hela programmet.
