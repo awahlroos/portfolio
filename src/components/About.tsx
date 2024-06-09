@@ -18,9 +18,9 @@ export default function About({ innerRef }: Props) {
         <div id="about-me-container">
           <img src={about_me_image} id="about-me-image" alt="Image of me" />
           <p id="about-me-text">
-            Jag heter Alex Wahlroos och har precis studerat klart
+            Jag heter Alex Wahlroos och studerar femte och sista året på
             civilingenjörsprogrammet interaktion och design vid Umeå
-            universitet. En vanlig beskrivning av detta program är att{" "}
+            Universitet. En vanlig beskrivning av detta program är att{" "}
             <b>mötet mellan människa och maskin</b> står i fokus, vilket i
             praktiken innebär att designa och skapa intuitiva och
             användarvänliga gränssnitt och system.{" "}
